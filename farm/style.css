@@ -1,0 +1,29 @@
+body {
+  margin: 0%;
+}
+
+img .farm {
+  max-width: 100%;
+  z-index: -1;
+}
+
+main {
+  padding: 400px 0px 0px 0px;
+}
+
+img {
+  position: absolute;
+  max-width: 100%;
+}
+
+.grid-container {
+  display: grid;
+
+  align-content: end;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.grid-container > div {
+  border: none;
+}
